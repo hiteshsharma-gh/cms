@@ -73,6 +73,7 @@ export const CourseCard = ({
       </div>
     </div>
   );
+  //the code below is unreachable, so why is it there?
   return (
     <div
       className={`flex max-w-full flex-col items-center bg-slate-100 md:flex-row md:border rounded-${roundedCardSize} shadow-lg dark:bg-gradient-to-t dark:from-slate-900 dark:to-slate-800 md:dark:bg-gradient-to-l`}
